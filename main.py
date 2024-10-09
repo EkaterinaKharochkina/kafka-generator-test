@@ -41,4 +41,4 @@ def gen_payment_activity(activity_count: int, topic_name: str, delay: float = 0)
         time.sleep(delay)
     producer.flush()
 
-gen_payment_activity(activity_count=10, topic_name='test1', delay=60)
+gen_payment_activity(activity_count=1, topic_name='test1', delay=60)
